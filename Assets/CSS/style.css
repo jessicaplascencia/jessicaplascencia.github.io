@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.top{
+    height: 100vh;
+    width: 100%;
+    background-color: #64718d;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.title{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #3a3055;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 15px 25px;
+}
+nav ul li a{
+    color: #cde5df;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #3a3055;
+    transition: .4s;
+}
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 25px 0px 25px;
+    font-size: 75px;
+}
+h2{
+    color: #87c7c1;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-flex;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #3a3055;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-flex;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #87c7c1;
+    color: white;
+    box-shadow: 0px 0px 5px #64718d, 0px 0px 15px #3a3055;
+    top: 6px;
+    right: 6px;
+}
